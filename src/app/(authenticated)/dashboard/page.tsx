@@ -1,5 +1,8 @@
 export default function DashboardPage() {
-  return (
-    <div>DashboardPage</div>
-  )
+	return (
+		<main className="">
+			<h1>Bem-vindo, Fulano</h1>
+			<span>Menu</span>
+		</main>
+	);
 }

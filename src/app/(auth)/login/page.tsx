@@ -12,7 +12,7 @@ export default function LoginPage() {
 
 			<span className="pt-6 inline-flex items-center gap-1">
 				Ainda não possui conta?
-				<Link href="/register" className="text-red-500 hover:underline">
+				<Link href="/register" className="text-primary hover:underline">
 					Criar Conta{" "}
 				</Link>
 			</span>

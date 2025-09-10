@@ -34,12 +34,12 @@ export function LoginForm() {
 						control={form.control}
 						name="rememberMe"
 						label="Lembrar minha senha"
-						classLabel="text-red-500 font-normal"
+						classLabel="text-primary font-normal"
 					/>
 
 					<Link
 						href="/forgot-password"
-						className="text-red-500 font-normal text-sm"
+						className="text-primary font-normal text-sm"
 					>
 						Esqueceu a senha?
 					</Link>

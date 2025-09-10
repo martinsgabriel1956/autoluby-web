@@ -71,7 +71,6 @@ export const InputDefault = <T extends FieldValues>({
 										})}
 							/>
 						</FormControl>
-
 						<FormMessage />
 					</FormItem>
 				);

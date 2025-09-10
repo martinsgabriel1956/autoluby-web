@@ -19,6 +19,7 @@ export function RegisterForm() {
 					control={form.control}
 					name="name"
 					placeholder="Digite o seu nome"
+					label="Nome:"
 				/>
 
 				<InputDefault
@@ -26,12 +27,14 @@ export function RegisterForm() {
 					name="email"
 					placeholder="Digite o seu email"
 					type="email"
+					label="E-mail:"
 				/>
 				<InputDefault
 					control={form.control}
 					name="cpf"
 					placeholder="Digite o seu CPF"
 					formatValue={(value: string) => documentValidator(value, "CPF")}
+					label="CPF:"
 				/>
 
 				<InputDefault
@@ -39,12 +42,14 @@ export function RegisterForm() {
 					name="password"
 					placeholder="Digite a sua senha"
 					type="password"
+					label="Senha:"
 				/>
 				<InputDefault
 					control={form.control}
 					name="confirmPassword"
 					placeholder="Digite a sua senha"
 					type="password"
+					label="Confirmação de senha:"
 				/>
 
 				<div className="w-full">

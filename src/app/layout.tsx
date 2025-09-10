@@ -5,6 +5,9 @@ import { poppins } from "@/utils/fonts";
 export const metadata: Metadata = {
 	title: "AutoLuby",
 	description: "Alugue o seu carro.",
+	icons: {
+		icon: "/favicon.svg",
+	},
 };
 
 export default function RootLayout({
